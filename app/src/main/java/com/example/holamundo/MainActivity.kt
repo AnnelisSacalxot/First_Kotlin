@@ -7,12 +7,19 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        //llamando a la funcion
+
+        /*
+        * llamando a la funcion
         variablesYConstantes();
         tiposDatos();
+        sentenciIf();*/
     }
 
-    //Empieza a programar
+
+
+
+
+    /*Empieza a programar
     private fun variablesYConstantes(){
         var cadena = "Hola uwu";
         //imprimir
@@ -68,4 +75,20 @@ class MainActivity : AppCompatActivity() {
         println(myBool == myBool2);
         println(myBool && myBool2);
     }
+
+    //ciclos
+
+    private fun sentenciIf(){
+         val num = 6;
+
+        if (num < 10 && num > 5) {
+            println("$num es menor que 10 y mayor a 5");
+        } else{
+            println("$num es mayor que 10 o menor igual a 5");
+        }
+
+        /*
+        * operadores logicos
+        * && "si", || "o", ! "no"  */
+    }*/
 }
